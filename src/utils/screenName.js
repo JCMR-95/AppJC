@@ -1,12 +1,20 @@
+const welcomeStack = {
+    tab: "WelcomeTab",
+    welcome: "Welcome",
+};
+
 const aboutMeStack = {
-    tab: "Sobre mi",
+    tab: "AboutMeTab",
+    aboutMe: "AboutMe",
 };
 
 const workStack = {
-    tab: "Trabajo",
+    tab: "WorkTab",
+    work: "Work",
 };
 
 export const screen = {
+    welcome: welcomeStack,
     aboutMe: aboutMeStack,
     work: workStack,
 };
