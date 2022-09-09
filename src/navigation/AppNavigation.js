@@ -41,13 +41,17 @@ export function AppNavigation(){
 
 function screenOptions(route, color, size) {
     let iconName;
+
+    if (route.name === "WelcomeTab") {
+      iconName = "pine-tree";
+    }
   
     if (route.name === "WorkTab") {
       iconName = "laptop";
     }
   
     if (route.name === "AboutMeTab") {
-      iconName = "pine-tree";
+      iconName = "account-tie";
     }
   
     return (
